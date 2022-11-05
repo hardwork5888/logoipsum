@@ -1,0 +1,130 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+h1{
+    font-size: 20px;
+    font-weight: normal;
+    color: #f70101;
+}
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+
+.nav_li{    
+    display: inline-block;
+    
+}
+.nav_li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.nav_link{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    text-decoration: none;
+    color: #696871;
+}
+
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+.button{
+    width: 212px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.button_orange{
+    background: #FF7143;
+}
+
+.button_violet{
+    background: #5454D4;
+}
+
+.button_transparent{
+    border: 1px solid #5454D4;
+    color: #5454D4;
+    margin-left: 50px;
+}
+.button_violet:hover{
+    background: #8383e0;
+    transition: 450ms;
+}
+
+.button_transparent:hover{
+    background: #b6b6dd;
+    transition: 450ms;
+}
+
+.button_orange:hover{
+    background: #f85a25;
+    transition: 300ms;
+}
+
+.about_title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;  
+    color: #19191B;  
+    max-width: 467px;  
+    margin-bottom: 30px;
+}
+
+.about_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; 
+    letter-spacing: -0.625263px; 
+    color: #696871; 
+    max-width: 410px;  
+    margin-bottom: 50px;  
+}
+.container2{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.nav_lil{    
+    display: inline-block;
+    
+}
+.nav_lil:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.header_flex, .about, .footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    margin: 105px auto 85px;
+}
+.footer{
+    padding: 53px 0;
+    background: rgba(255, 113, 67, 0.27);   
+
+}
